@@ -15,14 +15,17 @@ body{
     width:100%;
 }
 
+
+
 .head{
     display: flex;
 }
 .context{
     max-width: 100vh;
-    margin: 0px 30px 25px 20px;
-    padding-top: 30px;
+    margin: 0px 30px 35px 40px;
+    padding-top: 20px;
     padding-left:1%;
+    padding-bottom: 50px;
 }
 .context  h4{
     font-size: 2rem;
@@ -31,8 +34,9 @@ body{
 .navig{
     display: flex;
     gap:24px;
-    padding-left: 60vh;
+    padding-left: 58vh;
     padding-top: 15px;
+    font-size: 1em;
 }
 .navig a{
     text-decoration: none;
@@ -43,12 +47,12 @@ body{
 .navig li{
     list-style: none;
     text-decoration: none;
-    
 }
 .hero-banner{
     background-image: linear-gradient(to right, rgba(0,0,0,0.5) , rgba(0, 0, 0, 0.1)), linear-gradient(to bottom, rgba(0,0,0,0.2) , rgba(0, 0, 0, 0.1)),url(/assets/images/Home\ Screen.jpg);
-    width:100vw;
-    height:100vh;
+    max-width: 100%;
+    /* width:95vw;
+    height:90vh; */
     color:aliceblue;
 }
 .log-out{
@@ -56,9 +60,9 @@ body{
     border: none;
     font-size: 16px;
     color:aliceblue;
-    padding-left: 56vh;
+    padding-left: 45vh;
 }
-.hero-banner .logo-text{
+.logo-text{
     color:#FF8D41;
 } 
 
@@ -97,4 +101,69 @@ body{
     margin:0 0 0 30px;
     height: 44px;
     width: 119px;
+}
+
+.about-us{
+    background-color: #FFFFFF;
+    padding-left: 129px;
+}
+
+.about-us-title{
+    display: flex;
+    justify-content: center;
+}
+
+.half-line{
+    display: flex;
+    color: #666;
+    font-size: 30px;
+    
+}
+.about-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #666;
+}
+
+.outerbox{
+    box-sizing: border-box;
+    height: 300px;
+    width: 60%;
+    border: 1px solid #212020;
+    border-radius: 10px;  
+    background-image: url("/assets/images/Rectangle\ 11.png");
+}
+
+.historyJS, .whyus{
+    display: flex;
+    color:#424242;
+}
+
+.readmore{
+    border:1px #FF8D41;
+    outline:auto;
+    color: #FF8D41;
+    background-color: transparent;
+}
+
+.details{
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+    background-color: #FF8D28;
+    color: white;
+    display: grid;
+}
+
+.upperdetails{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:xx-large;
+    /* align-content: space-between; */
+}
+.lowerdetails{
+    display: flex;
+    justify-content: space-evenly;
 }
