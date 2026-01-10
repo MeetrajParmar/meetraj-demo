@@ -163,6 +163,7 @@ body{
     font-size:xx-large;
     /* align-content: space-between; */
 }
+
 .lowerdetails{
     display: flex;
     justify-content: space-evenly;
@@ -192,4 +193,85 @@ body{
 } 
 .price{
     color:#757575;
+}
+
+.our-services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.apparment{
+    justify-content: center;
+}
+
+.sports{
+    background-color: #FF8D28;
+    color: #ebebeb;
+}
+
+
+.reviews{
+    display: flex;
+    justify-content: space-evenly;
+}   
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: flex;
+}
+
+.footer-col {
+  min-width: 150px;
+}
+
+.footer-col h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #888;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+  color: #ff7a00;
+}
+
+/* Brand section */
+.brand h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.brand h2 span {
+  color: #ff7a00;
+}
+
+.brand p {
+  font-size: 14px;
+  color: #777;
+  max-width: 260px;
+}
+
+.brand .email {
+  margin-top: 10px;
+  color: #999;
+  font-size: 14px;
 }
