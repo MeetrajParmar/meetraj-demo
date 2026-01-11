@@ -113,18 +113,78 @@ body{
     justify-content: center;
 }
 
-.half-line{
-    display: flex;
-    color: #666;
-    font-size: 30px;
-    
-}
-.about-title,.explore-room-title{
+.explore-room-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
-    color: #666;
+    gap: 15px;
+}
+
+.half-line {
+  width: 30px;
+  height: 1px;
+  background-color: #777;
+}
+
+.about-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.whatpsay {
+  margin-bottom: 60px;
+}
+
+.whatpsay h3 ,.exploreroom{
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+}
+
+.logo-text {
+  color: #ff7a00;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.testimonial{
+  padding: 157px 180px;
+}
+.testimonial-card {
+  max-width: 250px;
+  margin: 0 auto;
+
+}
+
+.testimonial-card img {
+  width: 28px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.rv {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.email {
+  font-size: 13px;
+  color: #999;
 }
 
 .outerbox{
@@ -170,7 +230,8 @@ body{
 }
 
 .room-details{
-    background-color: #ebebeb;
+    background-color: #f7f7f7;
+    padding: 110px 100px;
 }
 
 
@@ -178,46 +239,97 @@ body{
     color: #666;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .rooms{
     display: flex;
     gap:30px;
-    background-color: #f2f2f2;
     justify-content: center;
+    margin-top: 50px;
 }
-
+.junior-suit{
+   background-color: #fffdfd;
+}
 .room-text{
     justify-items: center;
     list-style-type: none;
+    padding: 40px 24px;
 } 
 .price{
     color:#757575;
 }
 
 .our-services{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap:10px;
+    padding: 60px 80px;
+    text-align: center;
 }
 
-.apparment{
-    justify-content: center;
+.testimonal{
+    background-color: #fff;
+    text-align: center;
 }
+
+
+.service-container{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card{
+    background: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    min-height: 260px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.service-card img{
+    width: 45px;
+}
+
+.service-card h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.service-card p{
+    font-size: 14px;
+    color: #888;
+}
+
 
 .sports{
+  padding-top:80px ;
     background-color: #FF8D28;
-    color: #ebebeb;
+    color: #fff;
+    border: none;
 }
 
+.sports p{
+    padding-top: 10px;
+    color: #fff;
+}
 
 .reviews{
     display: flex;
     justify-content: space-evenly;
 }   
 
-
+.foot{
+  padding: 80px 50px;
+}
 .footer-container{
     display: flex;
     justify-content: space-between;
